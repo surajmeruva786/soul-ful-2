@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover extraordinary destinations with SoulFul Trips. Immerse yourself in unforgettable travel experiences that nourish the soul and inspire adventure.">
+  <meta property="og:title" content="SoulFul Trips - Discover Your Next Adventure">
+  <meta property="og:description" content="Discover extraordinary destinations with SoulFul Trips. Immerse yourself in unforgettable travel experiences.">
+  <meta property="og:type" content="website">
+  
+  <title>SoulFul Trips - Discover Your Next Adventure</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="#"><span class="highlight">SoulFul</span> Trips</a>
+        </div>
+        <nav class="nav-desktop">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#destinations" class="nav-link">Destinations</a></li>
+            <li><a href="#packages" class="nav-link">Packages</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars open-menu"></i>
+          <i class="fa-solid fa-xmark close-menu hide"></i>
+        </div>
+      </div>
+      <nav class="nav-mobile hide">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#destinations" class="nav-link">Destinations</a></li>
+          <li><a href="#packages" class="nav-link">Packages</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Discover Your <span class="highlight">Soul's Journey</span></h1>
+        <p>Immerse yourself in extraordinary destinations and create memories that last a lifetime.</p>
+        <div class="hero-buttons">
+          <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
+          <a href="#packages" class="btn btn-outline">View Packages</a>
+        </div>
+        <div class="whatsapp-button">
+          <a href="https://wa.me/c/917893551235" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Contact Us on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+    <a href="#destinations" class="scroll-down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="destinations">
+    <div class="container">
+      <div class="section-header">
+        <h2>Popular Destinations</h2>
+        <p>Explore our handpicked selection of breathtaking destinations from around the world.</p>
+      </div>
+      <div class="destinations-grid" id="destinations-grid">
+        <!-- Destinations will be populated by JavaScript -->
+      </div>
+      <div class="view-all">
+        <button id="view-all-destinations" class="btn btn-primary">View All Destinations</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="packages">
+    <div class="container">
+      <div class="section-header">
+        <h2>Premium Travel Packages</h2>
+        <p>Curated experiences designed to create unforgettable memories and extraordinary journeys.</p>
+      </div>
+      <div class="packages-grid" id="packages-grid">
+        <!-- Packages will be populated by JavaScript -->
+      </div>
+      <div class="view-all">
+        <button id="view-all-packages" class="btn btn-primary">View All Packages</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Travelers Say</h2>
+        <p>Hear from our community of passionate travelers about their unforgettable experiences.</p>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testimonials-track" id="testimonials-track">
+          <!-- Testimonials will be populated by JavaScript -->
+        </div>
+        <div class="carousel-controls">
+          <button id="prev-testimonial" class="carousel-control" aria-label="Previous testimonial">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="next-testimonial" class="carousel-control" aria-label="Next testimonial">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2>Travel Inspiration Gallery</h2>
+        <p>Explore breathtaking moments captured by our travelers around the world.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Gallery items will be populated by JavaScript -->
+      </div>
+      <div class="view-all">
+        <button id="view-all-gallery" class="btn btn-primary">View Full Gallery</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Let's Plan Your Dream Vacation</h2>
+        <p>Have questions or ready to start planning your next adventure? Reach out to our travel experts directly through WhatsApp.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-button">
+          <a href="https://wa.me/c/917893551235" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp large">
+            <i class="fa-brands fa-whatsapp"></i> Contact Us on WhatsApp
+          </a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info-grid">
+            <div class="contact-info-item">
+              <div class="icon-circle">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <h3>Fast Response</h3>
+              <p>We typically respond within 1-2 hours during business hours</p>
+            </div>
+            <div class="contact-info-item">
+              <div class="icon-circle">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3>Secure Chats</h3>
+              <p>Your conversations are end-to-end encrypted</p>
+            </div>
+            <div class="contact-info-item">
+              <div class="icon-circle">
+                <i class="fa-regular fa-credit-card"></i>
+              </div>
+              <h3>Easy Payments</h3>
+              <p>Convenient and secure payment options</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>SoulFul Trips</h3>
+          <p>Creating unforgettable travel experiences that nourish the soul and inspire a lifetime of adventure.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> <span>123 Travel Street, Wanderlust City, 10001</span></li>
+            <li><i class="fa-solid fa-phone"></i> <span>+1 (555) 123-4567</span></li>
+            <li><i class="fa-solid fa-envelope"></i> <span>info@soulfultrips.com</span></li>
+            <li><i class="fa-regular fa-clock"></i> <span>Mon-Fri: 9AM-6PM (EST)</span></li>
+            <li class="whatsapp-link">
+              <a href="https://wa.me/c/917893551235" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Contact Us on WhatsApp
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> SoulFul Trips. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Data Scripts -->
+  <script src="js/data/destinations.js"></script>
+  <script src="js/data/packages.js"></script>
+  <script src="js/data/testimonials.js"></script>
+  <script src="js/data/gallery.js"></script>
+  
+  <!-- Main Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
